@@ -9,7 +9,22 @@
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="LoginPage" />
+
+    <ShellContent 
+        Route="ConfiguracionPage" 
+        ContentTemplate="{DataTemplate local:ConfiguracionPage}" />
+
+    <ShellContent
+        Title="Registro"
+        ContentTemplate="{DataTemplate local:RegisterPage}"
+        Route="RegisterPage" />
+
+    <ShellContent
+        Title="Recuperar"
+        ContentTemplate="{DataTemplate local:RecoverPage}"
+        Route="RecoverPage" />
 
 </Shell>
+

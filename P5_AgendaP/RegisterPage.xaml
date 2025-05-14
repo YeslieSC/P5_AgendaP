@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P5_AgendaP.RegisterPage"
+             Title="Registro">
+    <VerticalStackLayout Padding="20">
+        <Label Text="Crea tu cuenta" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center"/>
+
+        <Entry x:Name="NameEntry" Placeholder="Nombre completo" FontSize="18"/>
+        <Entry x:Name="EmailEntry" Placeholder="Correo electrónico" Keyboard="Email" FontSize="18"/>
+        <Entry x:Name="PasswordEntry" Placeholder="Contraseña" IsPassword="True" FontSize="18"/>
+
+        <Button Text="Registrar"
+                Clicked="OnRegisterClicked"
+                BackgroundColor="Green" TextColor="White"
+                Margin="10"/>
+
+        <Label x:Name="StatusLabel" Text="" TextColor="Green"
+               FontSize="14" HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

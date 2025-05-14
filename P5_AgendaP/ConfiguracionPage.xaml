@@ -13,6 +13,8 @@
            AbsoluteLayout.LayoutFlags="PositionProportional" />
         <Button Text="Cambiar Tema" AbsoluteLayout.LayoutBounds="0.5,0.5,150,40"
             AbsoluteLayout.LayoutFlags="PositionProportional" Clicked="CambiarTema"/>
+        <Button Text="Cerrar sesión" Clicked="LogoutButton_Clicked" BackgroundColor="Red" TextColor="White"/>
+
     </AbsoluteLayout>
     
 </ContentPage>
