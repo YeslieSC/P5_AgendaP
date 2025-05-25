@@ -6,6 +6,11 @@ public partial class RecoverPage : ContentPage
 	{
 		InitializeComponent();
 	}
+    private async void OnBackClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new LoginPage());
+    }
+
     private async void OnRecoverClicked(object sender, EventArgs e)
     {
         string email = EmailEntry.Text.Trim();

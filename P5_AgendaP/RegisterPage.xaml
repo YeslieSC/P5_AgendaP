@@ -15,7 +15,8 @@
                 BackgroundColor="Green" TextColor="White"
                 Margin="10"/>
 
-        <Label x:Name="StatusLabel" Text="" TextColor="Green"
-               FontSize="14" HorizontalOptions="Center"/>
+        <Label x:Name="StatusLabel" Text="" TextColor="Green" FontSize="14" HorizontalOptions="Center"/>
+        
+        <Button Text="Volver" Clicked="OnBackClicked" HorizontalOptions="Start" Margin="0,10,0,0"/>
     </VerticalStackLayout>
 </ContentPage>
